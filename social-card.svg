@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#12121a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a28;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="accent-glow-1" cx="20%" cy="30%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#667eea;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="accent-glow-2" cx="80%" cy="70%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.25" />
+      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg-gradient)"/>
+  <rect width="1200" height="630" fill="url(#accent-glow-1)"/>
+  <rect width="1200" height="630" fill="url(#accent-glow-2)"/>
+  
+  <!-- Name -->
+  <text x="100" y="220" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="700" fill="#e8e8f0">
+    Christina Andrinopoulou
+  </text>
+  
+  <!-- Title with gradient -->
+  <defs>
+    <linearGradient id="title-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <text x="100" y="300" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="600" fill="url(#title-gradient)">
+    Full-Stack &amp; AI Engineer
+  </text>
+  
+  <!-- Value Proposition -->
+  <text x="100" y="380" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="400" fill="#a8a8bc" style="opacity:0.9">
+    Designing software systems where data and AI
+  </text>
+  <text x="100" y="420" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="400" fill="#a8a8bc" style="opacity:0.9">
+    meaningfully converge
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="1050" cy="150" r="100" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.15"/>
+  <circle cx="1050" cy="150" r="120" fill="none" stroke="#7c3aed" stroke-width="2" opacity="0.1"/>
+  
+  <!-- Bottom accent line -->
+  <line x1="100" y1="520" x2="500" y2="520" stroke="url(#title-gradient)" stroke-width="4" stroke-linecap="round"/>
+</svg>
