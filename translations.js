@@ -15,7 +15,7 @@ const translations = {
         
         // About Section
         "about-title": "Σχετικά με εμένα",
-        "about-text": "Full-Stack & AI Engineer με ενασχόληση στην ανάπτυξη λογισμικού, τη μηχανική μάθηση, την επιστήμη και ανάλυση δεδομένων. Σχεδιασμός και υλοποίηση ολοκληρωμένων software συστημάτων, με συνδυασμό σύγχρονων τεχνικών AI και δοκιμασμένων πρακτικών ανάπτυξης λογισμικού, με στόχο αξιόπιστες λύσεις που λειτουργούν στην πράξη.\n\nΤα σύνθετα προβλήματα προσεγγίζονται ολιστικά - από τα δεδομένα και τα μοντέλα έως την αρχιτεκτονική, την υλοποίηση και την ανάπτυξη σε πραγματικά περιβάλλοντα. Η προσέγγιση βασίζεται στην πεποίθηση ότι η ουσιαστική ενσωμάτωση του AI στο λογισμικό μπορεί να ενισχύσει τον αντίκτυπο και να οδηγήσει σε λύσεις με πραγματική αξία.",
+        "about-text": "Full-Stack & AI Engineer με ενασχόληση στην ανάπτυξη λογισμικού, τη μηχανική μάθηση, την επιστήμη και ανάλυση δεδομένων. Σχεδιασμός και υλοποίηση ολοκληρωμένων software συστημάτων, με συνδυασμό σύγχρονων τεχνικών AI και δοκιμασμένων πρακτικών ανάπτυξης λογισμικού, με στόχο αξιόπιστες λύσεις που λειτουργούν στην πράξη.\n\nΤα σύνθετα προβλήματα προσεγγίζονται ολιστικά - από τα δεδομένα και τα μοντέλα έως την αρχιτεκτονική, την υλοποίηση και την ανάπτυξη σε πραγματικά περιβάλλοντα.",
         
         // Experience
         "experience-title": "Εμπειρία",
@@ -51,7 +51,7 @@ const translations = {
         // Hero Section
         "name": "Christina Andrinopoulou",
         "title": "Full-Stack & AI Engineer",
-        "value-proposition": "Designing software systems where data and AI meaningfully converge",
+        "value-proposition": "Designing software systems where data and AI converge",
         
         // Navigation
         "nav-about": "About",
@@ -62,7 +62,7 @@ const translations = {
         
         // About Section
         "about-title": "About Me",
-        "about-text": "A Full-Stack & AI Engineer working across software development, machine learning, data science, and data analysis. Focused on designing and delivering end-to-end software systems, combining applied intelligence with solid engineering practices to build reliable, production-ready solutions.\n\nComplex problems are approached holistically - from data and models to architecture, implementation, and deployment. The work reflects a belief that thoughtfully integrated intelligence can amplify impact and support meaningful, real-world outcomes.",
+        "about-text": "A Full-Stack & AI Engineer working across software development, machine learning, data science, and data analysis. Focused on designing and delivering end-to-end software systems, combining applied intelligence with solid engineering practices to build reliable, production-ready solutions.\n\nComplex problems are approached holistically - from data and models to architecture, implementation, and deployment.",
         
         // Experience
         "experience-title": "Experience",
