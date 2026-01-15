@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Christina Andrinopoulou - Full-Stack & AI Engineer specializing in Machine Learning, Data Science, and Software Development">
+    <meta name="keywords" content="Full-Stack, AI Engineer, Machine Learning, Software Development, Data Science, Bioinformatics">
+    <meta name="author" content="Christina Andrinopoulou">
+    
+    <title>Christina Andrinopoulou | Full-Stack & AI Engineer</title>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-username.github.io/">
+    <meta property="og:title" content="Christina Andrinopoulou | Full-Stack & AI Engineer">
+    <meta property="og:description" content="Designing software systems where data and AI meaningfully converge. Full-Stack & AI Engineer specializing in Machine Learning, Data Science, and Software Development.">
+    <meta property="og:image" content="https://your-username.github.io/social-card.svg">
+    <meta property="og:image:alt" content="Christina Andrinopoulou - Full-Stack & AI Engineer">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="el_GR">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://your-username.github.io/">
+    <meta name="twitter:title" content="Christina Andrinopoulou | Full-Stack & AI Engineer">
+    <meta name="twitter:description" content="Designing software systems where data and AI meaningfully converge. Full-Stack & AI Engineer specializing in Machine Learning, Data Science, and Software Development.">
+    <meta name="twitter:image" content="https://your-username.github.io/social-card.svg">
+    <meta name="twitter:image:alt" content="Christina Andrinopoulou - Full-Stack & AI Engineer">
+    <meta name="twitter:creator" content="@your-twitter-username">
+    
+    <!-- Additional Meta Tags -->
+    <meta name="theme-color" content="#00d4ff">
+    <link rel="canonical" href="https://your-username.github.io/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg?v=3">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <canvas id="particles-canvas"></canvas>
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button id="lang-toggle" class="lang-btn" aria-label="Switch language">
+            <span class="lang-option" data-lang="el">EL</span>
+            <span class="lang-separator">|</span>
+            <span class="lang-option" data-lang="en">EN</span>
+        </button>
+    </div>
+
+    <!-- Split Layout Container -->
+    <div class="split-container">
+        <!-- Left Sidebar - Fixed -->
+        <aside class="sidebar">
+            <div class="sidebar-content">
+                <!-- Profile -->
+                <div class="profile-section">
+                    <div class="profile-image-container">
+                        <img src="images/me.jpg" alt="Christina Andrinopoulou" class="profile-image">
+                    </div>
+                    
+                    <h1 class="name" data-translate="name">Χριστίνα Ανδρινοπούλου</h1>
+                    <h2 class="title" data-translate="title">Full-Stack & AI Engineer</h2>
+                    <p class="value-proposition" data-translate="value-proposition">
+                        Μετατρέπω σύνθετα δεδομένα σε στρατηγικές αποφάσεις μέσω προηγμένων μοντέλων Machine Learning.
+                    </p>
+                    
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="https://github.com/ChristinaAndrinopoyloy" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/christina-andrinopoulou-b4a37916b/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        
+                        <a href="https://scholar.google.com/citations?user=sK2qQusAAAAJ&hl=el" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Google Scholar">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                                <path d="M12 6l2 6-2 6"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="sidebar-nav">
+                    <a href="#about" class="nav-link active" data-section="about">
+                        <span class="nav-indicator"></span>
+                        <span class="nav-text" data-translate="nav-about">Σχετικά</span>
+                    </a>
+                    <a href="#experience" class="nav-link" data-section="experience">
+                        <span class="nav-indicator"></span>
+                        <span class="nav-text" data-translate="nav-experience">Εμπειρία</span>
+                    </a>
+                    <a href="#education" class="nav-link" data-section="education">
+                        <span class="nav-indicator"></span>
+                        <span class="nav-text" data-translate="nav-education">Εκπαίδευση</span>
+                    </a>
+                    <a href="#research" class="nav-link" data-section="research">
+                        <span class="nav-indicator"></span>
+                        <span class="nav-text" data-translate="nav-research">Έρευνα</span>
+                    </a>
+                    <a href="#skills" class="nav-link" data-section="skills">
+                        <span class="nav-indicator"></span>
+                        <span class="nav-text" data-translate="nav-skills">Δεξιότητες</span>
+                    </a>
+                </nav>
+            </div>
+        </aside>
+
+        <!-- Right Content - Scrollable -->
+        <main class="main-content">
+
+            <!-- About Section -->
+            <section id="about" class="content-section">
+                <div class="section-header">
+                    <span class="section-number">01</span>
+                    <h3 class="section-title" data-translate="about-title">Σχετικά με εμένα</h3>
+                </div>
+                <div class="section-content">
+                    <p class="about-text" data-translate="about-text">
+                        Ειδικεύομαι στη δημιουργία έξυπνων λύσεων που γεφυρώνουν το χάσμα μεταξύ πολύπλοκων δεδομένων και επιχειρηματικών αποφάσεων. Με ισχυρό υπόβαθρο στη Βιοπληροφορική και την Τεχνητή Νοημοσύνη, αναπτύσσω συστήματα που όχι μόνο λειτουργούν, αλλά και κάνουν τη διαφορά.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="content-section">
+                <div class="section-header">
+                    <span class="section-number">02</span>
+                    <h3 class="section-title" data-translate="experience-title">Εμπειρία</h3>
+                </div>
+                <div class="section-content">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-period" data-translate="experience-period">2020 - Σήμερα · 4 χρόνια</div>
+                            <h4 class="timeline-title" data-translate="job-title">Full Stack Software Developer</h4>
+                            <div class="timeline-company">e-NIOS</div>
+                            <p class="timeline-description" data-translate="job-description">
+                                Σχεδιασμός και ανάπτυξη full-stack εφαρμογών, με έμφαση στην επίλυση σύνθετων προβλημάτων και την παράδοση καινοτόμων λύσεων που βελτιώνουν την αποδοτικότητα και την εμπειρία χρήστη.
+                            </p>
+                            <div class="timeline-tech">
+                                <span class="tech-tag">Full Stack</span>
+                                <span class="tech-tag">Software Architecture</span>
+                                <span class="tech-tag">Problem Solving</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education" class="content-section">
+                <div class="section-header">
+                    <span class="section-number">03</span>
+                    <h3 class="section-title" data-translate="education-title">Εκπαίδευση</h3>
+                </div>
+                <div class="section-content">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-badge">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h4 class="timeline-title" data-translate="msc-degree">MSc in Data Science and Information Technologies</h4>
+                            <div class="timeline-field" data-translate="msc-field">Specialization: Bioinformatics & Biomedical Data Science</div>
+                            <div class="timeline-company" data-translate="university">Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών</div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-badge">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h4 class="timeline-title" data-translate="bsc-degree">BSc in Computer Science</h4>
+                            <div class="timeline-company" data-translate="university">Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Research Section -->
+            <section id="research" class="content-section">
+                <div class="section-header">
+                    <span class="section-number">04</span>
+                    <h3 class="section-title" data-translate="research-title">Ερευνητικές Δημοσιεύσεις</h3>
+                </div>
+                <div class="section-content">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <a href="https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1474026/full" target="_blank" rel="noopener noreferrer" class="publication-card-link">
+                            <div class="timeline-content glass-card">
+                                <svg class="publication-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                    <polyline points="15 3 21 3 21 9"/>
+                                    <line x1="10" y1="14" x2="21" y2="3"/>
+                                </svg>
+                                <div class="timeline-badge">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                                <h4 class="timeline-title">Genome-wide functional annotation of variants: a systematic review of state-of-the-art tools, techniques and resources</h4>
+                                <div class="timeline-company">Frontiers • 2025</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <a href="https://www.computer.org/csdl/proceedings-article/bibe/2025/589900a648/2cmn3tZ5utW" target="_blank" rel="noopener noreferrer" class="publication-card-link">
+                            <div class="timeline-content glass-card">
+                                <svg class="publication-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                    <polyline points="15 3 21 3 21 9"/>
+                                    <line x1="10" y1="14" x2="21" y2="3"/>
+                                </svg>
+                                <div class="timeline-badge">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                                <h4 class="timeline-title">VarOmeter: A Platform for Deep Functional Annotation and Intelligent Network Mining of Genome-Wide Variation Data</h4>
+                                <div class="timeline-company">IEEE BIBE Conference • 2025</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="content-section">
+                <div class="section-header">
+                    <span class="section-number">05</span>
+                    <h3 class="section-title" data-translate="interests-title">Τομείς Ενδιαφέροντος</h3>
+                </div>
+                <div class="section-content">
+                    <div class="skills-grid">
+                        <div class="skill-card glass-card">
+                            <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                            <div class="skill-name" data-translate="skill-ai">Τεχνητή Νοημοσύνη</div>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                            <div class="skill-name" data-translate="skill-ml">Μηχανική Μάθηση</div>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                            <div class="skill-name" data-translate="skill-ds">Επιστήμη Δεδομένων</div>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <div class="skill-icon"><i class="fas fa-chart-column"></i></div>
+                            <div class="skill-name" data-translate="skill-da">Ανάλυση Δεδομένων</div>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <div class="skill-icon"><i class="fas fa-code"></i></div>
+                            <div class="skill-name" data-translate="skill-dev">Ανάπτυξη Λογισμικού</div>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <div class="skill-icon"><i class="fas fa-dna"></i></div>
+                            <div class="skill-name" data-translate="skill-bio">Βιοπληροφορική</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <p data-translate="footer-text">© 2026 Χριστίνα Ανδρινοπούλου. Όλα τα δικαιώματα κατοχυρωμένα.</p>
+            </footer>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
